@@ -53,7 +53,7 @@ nav {
 }
 
 footer {
-  background-color: darkgrey;
+
   grid-area: 10/1/11/11;
   color: white
 }
