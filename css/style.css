@@ -13,6 +13,7 @@ p {
 .logos {
 width:50px;
   height:50px;
+  z-index:5;
 }
 #courses {
 background-colour: 
