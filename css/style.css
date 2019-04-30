@@ -9,6 +9,10 @@ p {
 #main {
 
 }
+.toparea {
+  position
+}
+
 
 .logos {
 width:50px;
@@ -53,7 +57,7 @@ nav {
 }
 
 footer {
-
+background-color: lightgrey;
   grid-area: 10/1/11/11;
   color: white
 }
