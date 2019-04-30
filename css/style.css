@@ -42,7 +42,7 @@ header {
 }
 
 .left {
-  background-color: lightblue;
+  background-color: darkseagreen;
   grid-area: 5/1/10/6
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 footer {
-background-color: lightgrey;
+background-color: forestgreen;
   grid-area: 10/1/11/11;
-  color: white
+  color: black
 }
