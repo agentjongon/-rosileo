@@ -9,7 +9,7 @@ p {
 
 .container {
   display: grid;
-  max-width: 900px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
   grid-gap: 10px;
