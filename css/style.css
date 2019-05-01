@@ -81,6 +81,12 @@ table {
   
 }
 
+#schedule {
+width:200px;
+  height:150px;
+  
+}
+
 th {
   background-color: #4CAF50;
   color: white;
