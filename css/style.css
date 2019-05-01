@@ -4,13 +4,14 @@ body {
 
 p {
   font-family : verdana ;
-  font-size : 16px ;
+  font-size : 15px ;
+  padding: 30px 10px 20px 10px;
 }
 #main {
 
 }
 #queen {
-
+background-color: lightblue;
 
 }
 
@@ -31,8 +32,8 @@ p {
 
 #profile {
 float:left;
-  width: 180px;
-  height:180px;
+  width: 400px;
+  height:400px;
   overflow:auto;
   z-index:3;
 }
@@ -70,6 +71,7 @@ header {
   background-color: darkseagreen;
   grid-area: 5/1/10/4;
     text-align: center;
+   border: 2px solid grey;
 }
 
 .center {
@@ -77,12 +79,14 @@ header {
   grid-area: 5/4/10/8;
   z-index:4;
   text-align: center;
+   border: 2px solid grey;
   
 }
 
 .right {
   background-color: lightgreen;
   grid-area: 5/8/10/11;
+   border: 2px solid grey;
 }
 
 footer {
