@@ -55,12 +55,18 @@ header {
 
 .left {
   background-color: darkseagreen;
-  grid-area: 5/1/10/6
+  grid-area: 5/1/10/4
+}
+
+.center {
+ background-color: green;
+  grid-area: 5/4/10/8;
+  z-index:4;
 }
 
 .right {
   background-color: lightgreen;
-  grid-area: 5/6/10/11;
+  grid-area: 5/8/10/11;
 }
 
 footer {
