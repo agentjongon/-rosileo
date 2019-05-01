@@ -24,11 +24,17 @@ p {
   position
 }
 
+#profile {
+float:left;
+  width: 80px;
+  height:80px;
+}
 
 .logos {
 width:50px;
   height:50px;
   z-index:5;
+  overflow:auto;
 }
 #courses {
 background-colour: 
@@ -55,13 +61,16 @@ header {
 
 .left {
   background-color: darkseagreen;
-  grid-area: 5/1/10/4
+  grid-area: 5/1/10/4;
+    text-align: center;
 }
 
 .center {
  background-color: green;
   grid-area: 5/4/10/8;
   z-index:4;
+  text-align: center;
+  
 }
 
 .right {
