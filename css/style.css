@@ -1,21 +1,14 @@
+
+
+
+/* Main */
+
 body {
   padding-bottom:2000px;
 }
+
 title {
 background-color: lightblue;
-}
-
-#vanselow {
-width:400px;
-  height:200px;
-   border-radius: 8px;
-}
-
-.pdf {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
 p {
@@ -23,72 +16,6 @@ p {
   font-size : 15px ;
   padding: 30px 10px 20px 10px;
   z-index:4;
-}
-#rosileo {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-#music {
-text-align: left;
-}
-
-.svg {
-z-index:2;
-  
-
-}
-
-#main {
-
-}
-#queen {
-background-color: lightblue;
-
-}
-
-.sticky{
-
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: lightgrey;
-  border: 2px solid grey;
-  z-index:10;
-}
-
-.toparea {
-  max-height:150px;
-}
-
-#profile {
-float:left;
-  width: 180px;
-  height:180px;
-  overflow:auto;
-  z-index:3;
-}
-
-.logos {
-width:40px;
-  height:40px;
-  z-index:5;
-  overflow:auto;
-}
-#courses {
-background-colour: 
-
-}
-.container {
-  display: grid;
-  position: relative;
-  margin: auto;
-  grid-gap: 10px;
-  grid-template: repeat( 10, 1fr) / repeat (10, 1fr);
 }
 
 h1, h2 {
@@ -104,6 +31,68 @@ header {
   background-color: grey;
   grid-area: 1/1/3/11;
   grid-template-columns: 1fr 4fr;
+}
+
+footer {
+  grid-area: 10/1/11/11;
+  color: black;
+}
+
+table {
+  color: black;
+}
+
+td {
+background-color: lightblue;
+  font-family:ariel;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-family: timesnewroman;
+}
+
+
+
+/* Classes */
+.pdf {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.svg {
+z-index:2;
+  
+
+}
+.sticky{
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: lightgrey;
+  border: 2px solid grey;
+  z-index:10;
+}
+
+.toparea {
+  max-height:150px;
+}
+.logos {
+width:40px;
+  height:40px;
+  z-index:5;
+  overflow:auto;
+}
+.container {
+  display: grid;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template: repeat( 10, 1fr) / repeat (10, 1fr);
 }
 
 .left {
@@ -128,33 +117,51 @@ header {
    border: 2px solid grey;
 }
 
-footer {
 
-  grid-area: 10/1/11/11;
-  color: black;
+/* ID */
+
+#vanselow {
+width:400px;
+  height:200px;
+   border-radius: 8px;
 }
 
-table {
+#rosileo {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  color: black;
-  
+#music {
+text-align: left;
+}
+
+#main {
+
+}
+
+#queen {
+background-color: lightblue;
+
+}
+
+#profile {
+float:left;
+  width: 180px;
+  height:180px;
+  overflow:auto;
+  z-index:3;
+}
+
+#courses {
+background-colour: 
+
 }
 
 #schedule {
 width:200px;
   height:150px;
   
-}
-
-td {
-background-color: lightblue;
-  font-family:ariel;
-}
-
-th {
-  background-color: #4CAF50;
-  color: white;
-  font-family: timesnewroman;
 }
 
 #myCanvas {
