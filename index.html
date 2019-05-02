@@ -168,6 +168,20 @@ Your browser does not support the video tag.
       </section>
     <footer>
       <h1>Other</h1>
+      <canvas id="myCanvas" width="1000" height="1000" style="border:10px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(10,100,1000,1000);
+grd.addColorStop(0,"lightgreen");
+grd.addColorStop(1,"white");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,1000,1000);
+</script>
       <h5>Come check out my professors website!</h5>
       
       <h4>My Field Report!</h4>
