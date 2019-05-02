@@ -1,12 +1,22 @@
 body {
   padding-bottom:2000px;
 }
+title {
+background-color: lightblue;
+}
+
 #vanselow {
 width:400px;
   height:200px;
    border-radius: 8px;
 }
 
+.pdf {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 p {
   font-family : verdana ;
