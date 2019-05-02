@@ -39,7 +39,7 @@ background-color: lightblue;
 }
 
 .toparea {
-  position:
+  max-height:150px;
 }
 
 #profile {
