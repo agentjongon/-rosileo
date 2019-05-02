@@ -6,7 +6,15 @@ p {
   font-family : verdana ;
   font-size : 15px ;
   padding: 30px 10px 20px 10px;
+  z-index:4;
 }
+
+.svg {
+z-index:2;
+  
+
+}
+
 #main {
 
 }
@@ -27,13 +35,13 @@ background-color: lightblue;
 }
 
 .toparea {
-  position
+  position:
 }
 
 #profile {
 float:left;
-  width: 200px;
-  height:200px;
+  width: 180px;
+  height:180px;
   overflow:auto;
   z-index:3;
 }
@@ -92,7 +100,7 @@ header {
 footer {
 background-color: forestgreen;
   grid-area: 10/1/11/11;
-  color: black
+  color: black;
 }
 
 table {
@@ -109,9 +117,11 @@ width:200px;
 
 td {
 background-color: lightblue;
+  font-family:ariel;
 }
 
 th {
   background-color: #4CAF50;
   color: white;
+  font-family: timesnewroman;
 }
