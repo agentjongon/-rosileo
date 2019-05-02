@@ -146,3 +146,8 @@ th {
   color: white;
   font-family: timesnewroman;
 }
+
+#myCanvas {
+z-index:-1;
+  position:absolute;
+}
