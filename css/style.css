@@ -9,6 +9,10 @@ p {
   z-index:4;
 }
 
+#music {
+text-align: left;
+}
+
 .svg {
 z-index:2;
   
