@@ -1,6 +1,12 @@
 body {
   padding-bottom:2000px;
 }
+#vanselow {
+width:400px;
+  height:200px;
+   border-radius: 8px;
+}
+
 
 p {
   font-family : verdana ;
