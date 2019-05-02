@@ -8,6 +8,13 @@ p {
   padding: 30px 10px 20px 10px;
   z-index:4;
 }
+#rosileo {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 #music {
 text-align: left;
